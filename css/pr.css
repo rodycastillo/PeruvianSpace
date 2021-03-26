@@ -35,9 +35,9 @@ body {
 }
 
 .banner__title {
-  font-size: 20px;
-  font-weight: 400;
-  color: #ee7009;
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
 }
 
 .banner__content {
@@ -45,7 +45,7 @@ body {
 }
 
 .banner__strong{
-  font-size: 40px;
+  font-size: 50px;
   display: block;
 }
 
@@ -231,6 +231,7 @@ body {
   background-color: #beb5ad;
   padding: 5px 10px;
   color: #ee7009;
+  cursor: pointer;
 }
 
 
@@ -437,7 +438,7 @@ th {
 }
 
 .testimonials__author::after{
-  content: "SEO Founder";
+  content: "CEO Founder";
   display: block;
   font-style: italic;
   font-weight: 400;

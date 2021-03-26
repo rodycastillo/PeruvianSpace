@@ -11,3 +11,35 @@ window.addEventListener('scroll', ()=> {
     header.classList.remove("header--dark");
   }
 })
+
+// $(function() {
+//   function abrir() {
+//     $("#dialog").dialog();
+//   }
+
+//   $( "#showPopup" ).click(function(){
+//     abrir();
+//     console.log("Soy Rody")
+//   })
+
+// } );
+
+
+$( function() {
+  $( "#dialog" ).dialog({
+    autoOpen: false,
+    show: {
+      effect: "blind",
+      duration: 1000
+    },
+    hide: {
+      effect: "explode",
+      duration: 1000
+    }
+  });
+
+  $( "#opener" ).on( "click", function() {
+    $( "#dialog" ).dialog( "open" );
+  });
+} );
+
